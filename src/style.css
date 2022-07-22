@@ -60,6 +60,19 @@ p {
 .contact {
   background: var(--bg-color);
 }
+
+.logo {
+  max-height: 44px;
+}
+.nav-link {
+  margin: 0 40px;
+}
+.active {
+  color: var(--bg-color)!important;
+}
+.contact-link a {
+  color: var(--bg-color);
+}
 @media (max-width: 616px) {
   .hero h1 {
     font-size: 40px;
