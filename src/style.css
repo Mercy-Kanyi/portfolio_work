@@ -11,6 +11,9 @@ p {
   font-family: var(--default-font);
   margin-bottom: 30px;
 }
+h4 {
+  font-size: 40px;
+}
 .hero {
   text-align: center;
   background-image: url("https://images.unsplash.com/photo-1511929825537-516974a253df?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=871&q=80");
@@ -74,7 +77,45 @@ p {
   color: var(--bg-color);
   text-decoration: none;
 }
+footer {
+  margin: 60px 0;
+}
+footer .contact-box {
+  padding: 30px 120px;
+  border-radius: 10px;
+}
+footer .contact-box p {
+  margin: 0;
+}
+
+footer .email-link {
+  text-decoration: none;
+  color: black;
+  font-size: 24px;
+  text-align: center;
+}
+footer .email-link:hover {
+  color: var(--bg-color);
+}
+
+footer .social-links i {
+  margin: 0 20px;
+  color: var(--bg-color);
+  padding: 20px;
+  font-size: 18px;
+  border-radius: 50%;
+  transition: all 100ms ease-in-out;
+}
+footer .social-links i:hover {
+  color: white;
+  background: var(--bg-color)!important;
+}
+
 @media (max-width: 616px) {
+  h4 {
+    font-size: 26px;
+  }
+
   .hero h1 {
     font-size: 40px;
   }
