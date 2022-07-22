@@ -47,18 +47,21 @@ p {
   background: var(--bg-color);
 }
 
-.about-content {
+.content {
   margin: 120px 60px;
 }
-.about-content h1 {
+.content h1 {
   font-family: 'Playfair Display', serif;
   font-size: 64px;
   line-height: 1;
 }
-.about-content h3 {
+.content h3 {
   font-family: var(--default-font);
   font-size: 18px;
   font-weight: 600;
+}
+.content p{
+  margin: 0 auto;
 }
 @media (max-width: 616px) {
   .hero h1 {
@@ -69,7 +72,7 @@ p {
     background: #e9b5b5;
     padding: 60px 30px;
   }
-  .about-content h1 {
+  .content h1 {
     font-size: 40px;
   }
 }
