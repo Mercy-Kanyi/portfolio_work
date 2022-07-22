@@ -8,9 +8,8 @@ body {
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 p {
-	display: block;
-	margin: 20px auto;
   font-family: var(--default-font);
+  margin-bottom: 30px;
 }
 .hero {
   text-align: center;
@@ -27,9 +26,7 @@ p {
 .hero h3 {
   font-size: 30px;
 }
-.hero p {
-  margin-bottom: 30px;
-}
+
 .btn-mywork {
   text-decoration: none;
   background: var(--bg-color);
@@ -60,16 +57,14 @@ p {
   font-size: 18px;
   font-weight: 600;
 }
-.content p{
-  margin: 0 auto;
+.contact {
+  background: var(--bg-color);
 }
 @media (max-width: 616px) {
   .hero h1 {
     font-size: 40px;
   }
   .hero {
-    background-image: none;
-    background: #e9b5b5;
     padding: 60px 30px;
   }
   .content h1 {
