@@ -20,6 +20,7 @@ h4 {
   background-size: cover;
   padding: 120px 60px;
   color: #fff;
+  border-radius: 10px;
 }
 .hero h1 {
   font-size: 72px;
@@ -44,10 +45,11 @@ h4 {
 }
 .hero-container {
   background: var(--bg-color);
+  border-radius: 10px;
 }
 
 .content {
-  margin: 120px 60px;
+  margin: 80px 60px;
 }
 .content h1 {
   font-family: "Playfair Display", serif;

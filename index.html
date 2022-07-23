@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
-      content="Mercy Kanyi is a profssional makeup artist with the Makeup Exurb brand,based in Kenya. Through Makeup Exurb, Mercy Kanyi undertakes projects which aim to express different scenarios and experiences through the silent art of makeup."
+      content="The Makeup Exurb brand is based in Kenya. Through Makeup Exurb, Mercy Kanyi undertakes projects which aim to express different scenarios and experiences through the silent art of makeup."
     />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -29,22 +29,50 @@
       crossorigin="anonymous"
     ></script>
     <link rel="stylesheet" href="src/style.css" />
-    <title>Makeup Exurb - Professional Makeup Artist</title>
+    <title>Makeup Exurb - Professional Makeup Artistry</title>
   </head>
   <body>
     <div class="container">
-      <nav class="navbar navbar-expand-lg navbar-light sticky-top bg-light">
-        <div class="container">
-          <img src="images/logo.png" alt="makeup exurb logo" class="logo" title="homepage"/>
-          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-              <a class="nav-link active" href="/" title="Home">Home</a>
-              <a class="nav-link" href="/about.html" title="About Mercy Kanyi">About</a>
-              <a class="nav-link" href="/work.html" title="Mercy's work">My Work</a>
-              <a class="nav-link" aria-current="page" href="/contact.html" title="contact Mercy"
-                >Contact</a
-              >
-            </div>
+      <nav class="navbar navbar-expand-lg bg-light rounded sticky-top">
+        <div class="container-fluid">
+          <img
+            src="images/logo.png"
+            alt="makeup exurb logo"
+            class="logo"
+            title="Homepage"
+          />
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="/">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/about.html" title="About Mercy Kanyi"
+                  >About Me</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/work.html" title="Mercy's work"
+                  >My work</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/contact.html" title="Contact Mercy"
+                  >Contact</a
+                >
+              </li>
+            </ul>
           </div>
         </div>
       </nav>
@@ -56,7 +84,7 @@
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta qui
             quasi nemo esse nisi veritatis illo repudiandae voluptate nam vel.
           </p>
-          <a href="#" class="btn btn-mywork mt-4 p-2">Get Started</a>
+          <a href="/contact.html" class="btn btn-mywork mt-4 p-2" title="Contact me">Contact me</a>
         </div>
         <div class="projects container">
           <p class="border rounded w-50 text-center mt-4">
@@ -66,7 +94,7 @@
             <div class="col d-none d-lg-block">
               <img
                 src="images/nature_project.jpg"
-                alt="nature project"
+                alt="nature project preview"
                 class="img-thumbnail"
               />
             </div>
@@ -80,7 +108,7 @@
                 adipisicing elit. Corporis tenetur omnis numquam dignissimos
                 aut, nobis molestiae error mollitia necessitatibus dolore!
               </p>
-              <a href="#" class="btn btn-projects">Learn More</a>
+              <a href="/work.html" class="btn btn-projects">Learn More</a>
             </div>
           </div>
           <div class="row mt-4">
@@ -94,12 +122,12 @@
                 adipisicing elit. Consequatur at sunt, beatae eum repudiandae
                 voluptatem enim officia unde omnis cumque.
               </p>
-              <a href="#" class="btn btn-projects">Learn More</a>
+              <a href="/work.html" class="btn btn-projects">Learn More</a>
             </div>
             <div class="col d-none d-lg-block">
               <img
                 src="images/water_project.jpg"
-                alt="water project"
+                alt="water project preview"
                 class="img-thumbnail"
               />
             </div>
@@ -108,7 +136,7 @@
             <div class="col d-none d-lg-block">
               <img
                 src="images/war_project.jpg"
-                alt="war project"
+                alt="war project preview"
                 class="img-thumbnail"
               />
             </div>
@@ -122,7 +150,7 @@
                 adipisicing elit. Perferendis amet dolorum ratione inventore
                 maiores fugit facere sunt ut asperiores minima.
               </p>
-              <a href="#" class="btn btn-projects">Learn More</a>
+              <a href="/work.html" class="btn btn-projects">Learn More</a>
             </div>
           </div>
         </div>
@@ -136,7 +164,7 @@
             <p class="text-muted">Lets glam you up</p>
           </div>
           <div>
-            <a href="" class="btn btn-mywork mt-4">Contact Me</a>
+            <a href="/contact.html" class="btn btn-mywork mt-4" title="Contact Mercy">Contact Me</a>
           </div>
         </div>
         <div class="d-flex justify-content-center">
@@ -144,21 +172,27 @@
             href="mailto:wakonyocasey@gmail.com"
             class="email-link mb-5"
             target="_blank"
+            title="Email us"
           >
             makeupexurb@gmail.com</a
           >
         </div>
         <div class="social-links d-flex justify-content-center">
-          <a href="https://www.instagram.com/the_makeup_exurb/" target="_blank">
+          <a href="https://www.instagram.com/the_makeup_exurb/" target="_blank" title="Instagram page">
             <i class="fa-brands fa-instagram bg-light"></i>
           </a>
-          <a href="https://www.facebook.com/makeup_exurb/" target="_blank">
+          <a href="https://www.facebook.com/makeup_exurb/" target="_blank" title="Facebook Page">
             <i class="fa-brands fa-facebook bg-light"></i>
           </a>
-          <a href="https://www.twitter.com/the_makeup_exurb/" target="_blank">
+          <a href="https://www.twitter.com/the_makeup_exurb/" target="_blank" title="Twitter profile">
             <i class="fa-brands fa-twitter bg-light"></i>
           </a>
         </div>
+        <p class="text-center mt-5 text-muted text-small">
+          <tt> 👌🏾 This project was coded by Mercy Kanyi and it is 
+          <a href="https://github.com/Mercy-Kanyi/portfolio_work">open-sourced.</a>
+        </tt>
+      </p>
       </footer>
     </div>
   </body>

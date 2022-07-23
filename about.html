@@ -4,6 +4,10 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Mercy Kanyi is a professional makeup artist with the Makeup Exurb brand,based in Kenya. Through Makeup Exurb, Mercy Kanyi undertakes projects which aim to express different scenarios and experiences through the silent art of makeup."
+    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 
@@ -26,22 +30,50 @@
       crossorigin="anonymous"
     ></script>
     <link rel="stylesheet" href="src/style.css" />
-    <title>About me</title>
+    <title>About Mercy Kanyi</title>
   </head>
   <body>
     <div class="container">
-      <nav class="navbar navbar-expand-lg navbar-light sticky-top bg-light">
-        <div class="container">
-          <img src="images/logo.png" alt="makeup exurb logo" class="logo" title="homepage"/>
-          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-              <a class="nav-link" href="/" title="Home">Home</a>
-              <a class="nav-link active" href="/about.html" title="About Mercy Kanyi">About</a>
-              <a class="nav-link" href="/work.html" title="Mercy's work">My Work</a>
-              <a class="nav-link" aria-current="page" href="/contact.html" title="contact Mercy"
-                >Contact</a
-              >
-            </div>
+      <nav class="navbar navbar-expand-lg bg-light rounded sticky-top">
+        <div class="container-fluid">
+          <img
+            src="images/logo.png"
+            alt="makeup exurb logo"
+            class="logo"
+            title="Homepage"
+          />
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="/">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="/about.html" title="About Mercy Kanyi"
+                  >About Me</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/work.html" title="Mercy's work"
+                  >My work</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/contact.html" title="Contact Mercy"
+                  >Contact</a
+                >
+              </li>
+            </ul>
           </div>
         </div>
       </nav>
@@ -55,7 +87,7 @@
               aspernatur totam praesentium provident consequuntur accusamus
               quibusdam, veniam saepe numquam.
             </p>
-            <a href="#" class="btn btn-mywork mt-4">See my work</a>
+            <a href="/work.html" class="btn btn-mywork mt-4" title="Mercy's work">See my work</a>
           </div>
           <div class="col-lg-6">
             <img
@@ -66,6 +98,45 @@
           </div>
         </div>
       </div>
+      <footer>
+        <div
+          class="contact-box d-none d-md-flex justify-content-between bg-light mb-5"
+        >
+          <div>
+            <h4>Inquiries</h4>
+            <p class="text-muted">Lets glam you up</p>
+          </div>
+          <div>
+            <a href="/contact.html" class="btn btn-mywork mt-4" title="Contact Mercy">Contact Me</a>
+          </div>
+        </div>
+        <div class="d-flex justify-content-center">
+          <a
+            href="mailto:wakonyocasey@gmail.com"
+            class="email-link mb-5"
+            target="_blank"
+            title="Email us"
+          >
+            makeupexurb@gmail.com</a
+          >
+        </div>
+        <div class="social-links d-flex justify-content-center">
+          <a href="https://www.instagram.com/the_makeup_exurb/" target="_blank" title="Instagram page">
+            <i class="fa-brands fa-instagram bg-light"></i>
+          </a>
+          <a href="https://www.facebook.com/makeup_exurb/" target="_blank" title="Facebook Page">
+            <i class="fa-brands fa-facebook bg-light"></i>
+          </a>
+          <a href="https://www.twitter.com/the_makeup_exurb/" target="_blank" title="Twitter profile">
+            <i class="fa-brands fa-twitter bg-light"></i>
+          </a>
+        </div>
+        <p class="text-center mt-5 text-muted text-small">
+          <tt> 👌🏾 This project was coded by Mercy Kanyi and it is 
+          <a href="https://github.com/Mercy-Kanyi/portfolio_work">open-sourced.</a>
+        </tt>
+      </p>
+      </footer>
     </div>
   </body>
 </html>
